@@ -1,0 +1,44 @@
+.first-box{
+    position: absolute;
+    top:8rem;
+    left:20rem;
+    width:72rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+.first-box input{
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 0.3rem;
+    background-color: whitesmoke;
+}
+.dub-dub-box button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem;
+    font-size: 0.75rem;
+}
+.second-box{
+    position: absolute;
+    top:30rem;
+    left:20rem;
+    width:72rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+.third-box{
+    position: absolute;
+    top:35rem;
+    left:20rem;
+    width:72rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+
+}

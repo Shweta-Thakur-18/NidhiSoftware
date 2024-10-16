@@ -1,0 +1,71 @@
+.document-verification-page {
+    display: flex;
+    height: 100vh; /* Full height */
+}
+
+
+
+h2 {
+    text-align: center;
+    color: #4e24e9; /* Darker text color */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.form-container {
+    max-width: 500px; /* Decreased max width for a smaller box */
+    margin: auto; /* Center the form container */
+    padding: 15px; /* Reduced padding for a more compact look */
+    background-color: white; /* White background for the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ccc; /* Light border for the box */
+    margin-top:-30px;
+}
+
+.input-container {
+    margin-bottom: 8px; /* Adjusted spacing between fields */
+}
+
+label {
+    display: block;
+    margin-bottom: 4px; /* Reduced spacing for labels */
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px; /* Reduced padding for better compactness */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s; /* Smooth border transition */
+}
+
+input:focus, select:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 8px; /* Reduced padding for a more compact button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold; /* Bold text for button */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+.result {
+    margin-top: 15px; /* Adjusted margin for result box */
+    padding: 8px; /* Reduced padding for the result box */
+    border: 1px solid #28a745; /* Bootstrap success color */
+    background-color: #e9f7ef; /* Light green background */
+    border-radius: 4px; /* Rounded corners for the result box */
+    text-align: center; /* Center the result text */
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    
+    
+}
+.kyc{
+    position:absolute;
+    top:12rem;
+    left:20rem;
+    
+}
+.kyc-form{
+    width:70rem;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.kyc-form p{
+    color: grey;
+    font-size: 0.8rem;
+}
+.kyc-form label{
+    color: grey;
+}
+.icon{
+    width: fit-content;
+}
+.custom-box{
+    width:280px;
+}
+.custom-box p{
+    font-size: 12px;
+    line-height: 6px;
+}
+.upload-div input[type="file"]{
+    border: none;
+    background: white;
+    color: grey;
+    
+}
+.upload-div button{
+    background-color: white;
+    color: blue;
+    width: 6rem;
+    border: 1px solid blue;
+}
+.upload-div{
+    border: 1px solid grey;
+    background-color: white;
+    cursor: pointer;
+}

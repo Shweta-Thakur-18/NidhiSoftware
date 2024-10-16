@@ -1,0 +1,94 @@
+/* Pay Deposits Container */
+.pay-deposits-container {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout for Topbar and content */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Content Layout */
+.content {
+    display: flex; /* Flexbox for Sidepanel and main content */
+    flex: 1; /* Take the remaining space */
+}
+
+/* Main Content Area */
+.main-content {
+    padding: 20px; /* Padding for the main content */
+    flex: 1; /* Main content takes the rest of the space */
+    /* Set background color to match sidepanel */
+    border-left: 1px solid #ccc; /* Left border to separate from Sidepanel */
+    max-height: 0cm; /* Set max height to approximately 9cm */
+    margin: 3cm 3cm 0 2cm; /* Increased top margin to 3cm for more spacing */
+}
+
+/* Pay Deposits Box Styles */
+.pay-deposits-box {
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255, 255, 255, 1) 100%); /* Gradient background */
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px; /* Shadow effect */
+    border-radius: 4px; /* Rounded corners */
+    width: 400px; /* Set a fixed width for the box */
+    height: auto; /* Allow the height to adjust based on content */
+    min-height: 300px; /* Set a minimum height */
+    padding: 20px; /* Increased padding for more spacing inside the box */
+    margin-top: 2rem; /* Margin above the box */
+    margin-left: 2rem; /* Margin on the left */
+}
+
+/* Title Styles */
+.pay-deposits-title {
+    color: #7C7C88; /* Text color matching p2 */
+    text-align: center; /* Center align title */
+    font-size: 16px; /* Increased font size for title */
+}
+
+/* Form Styles */
+.pay-deposits-form {
+    display: flex; /* Flexbox for form layout */
+    flex-direction: column; /* Column layout for form fields */
+    gap: 15px; /* Spacing between fields */
+}
+
+/* Pay Deposits Field Styles */
+.pay-deposits-field {
+    display: flex; /* Flexbox for label and input */
+    flex-direction: column; /* Column layout for label and input */
+}
+
+/* Label Styles */
+.pay-deposits-field label {
+    margin-bottom: 5px; /* Space between label and input */
+    color: #7C7C88; /* Label color matching p2 */
+}
+
+/* Input Field Styles */
+.dash-input {
+    border-bottom: #2236C9 solid 4px; /* Border style */
+    border-right: #2236C9 solid 4px; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* Background color */
+    text-indent: 6px; /* Indentation for text */
+    height: 2.3rem; /* Height of the input */
+}
+
+/* Submit Button Styles */
+.pay-deposits-submit {
+    background: #2236C9; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    padding: 10px; /* Padding for button */
+    width: 8rem; /* Button width */
+    height: 2rem; /* Button height */
+}
+
+.pay-deposits-submit:hover {
+    background-color: #1F2D73; /* Darker shade on hover */
+}
+
+/* Message Styles */
+.pay-deposits-message {
+    margin-top: 10px; /* Space above the message */
+    color: #4CAF50; /* Green for success messages */
+    text-align: center; /* Center align message */
+}

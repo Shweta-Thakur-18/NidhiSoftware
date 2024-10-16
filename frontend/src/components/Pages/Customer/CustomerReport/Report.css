@@ -1,0 +1,23 @@
+.report{
+    position: absolute;
+    top:10rem;
+    left:20rem;
+    width:72rem;
+    background-color: white;
+    padding:0.8rem;
+}
+.report button{
+    width: 8rem;
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    height:2.5rem;
+    margin-top: 1rem;
+}
+.table-report{
+    position: absolute;
+    top:10rem;
+    width: 72rem;
+    left: 10rem;
+}

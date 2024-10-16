@@ -1,0 +1,44 @@
+.table-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+.table-data {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.5rem;
+    width: 100%;
+    background-color: rgb(231, 229, 229);
+    padding: 0.2rem;
+    font-size: 0.8rem;
+}
+.table-data div{
+    background-color:rgb(231, 229, 229) ;
+}
+.table-data-1 {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0.5rem;
+    width: 100%;
+    background-color: white;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+}
+.table-data-1 div{
+    background-color:white ;
+}
+
+.table-2 .view{
+    width: fit-content;
+    font-size:0.8rem;
+}
+.table-2 .view button{
+    border: none;
+    border-radius: 0.2rem;
+    background-color:#2236C9 ;
+    color: white;
+    margin-bottom: 0.5rem;
+}

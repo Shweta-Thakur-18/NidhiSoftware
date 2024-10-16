@@ -1,0 +1,79 @@
+/* Main container for the Pay Maturity page */
+.pay-maturity-container {
+    display: flex; /* Use flexbox for layout */
+}
+
+/* Content area for Pay Maturity */
+.pm-content-container {
+    flex: 1; /* Take remaining space */
+    padding: 20px; /* Padding for content area */
+    background-color: #f9f9f9; /* Background color for content */
+    border-radius: 8px; /* Rounded corners */
+    margin: 15px; /* Margin for spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding-top: 3cm; /* Add top padding to move content down */
+}
+
+/* Heading style for the Pay Maturity page */
+.pm-content-container h3 {
+    text-align: center; /* Center align the heading */
+    color: #333; /* Heading color */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px; /* Spacing between form groups */
+}
+
+/* Label styling */
+label {
+    display: block; /* Block level for labels */
+    margin-bottom: 5px; /* Spacing below labels */
+    color: #555; /* Label text color */
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Button styling */
+button {
+    background-color: #007bff; /* Primary color for buttons */
+    color: white; /* White text on buttons */
+    border: none; /* No border for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px 15px; /* Padding inside buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for buttons */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Message styling for success/error messages */
+.message {
+    margin-top: 15px; /* Space above the message */
+    text-align: center; /* Center the message */
+    color: #28a745; /* Green color for success messages */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .pay-maturity-container {
+        flex-direction: column; /* Stack side panel and content */
+    }
+
+    .pm-content-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}

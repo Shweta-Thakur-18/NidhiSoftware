@@ -1,0 +1,28 @@
+.more{
+    width:10px;
+}
+.acc-detail{
+    position:absolute;
+    top:8rem;
+    left:20rem;
+    width:72rem;
+    background: white;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 5px;
+}
+.acc-button{
+    width: 8rem;
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    height:2.5rem;
+    margin-top: 1rem;
+}
+.table-acc{
+    position: absolute;
+    top:10rem;
+    width: 72rem;
+    left: 10rem;
+}

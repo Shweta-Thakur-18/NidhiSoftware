@@ -1,0 +1,48 @@
+.loan-container {
+    padding: 20px;
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    border-radius: 8px;
+    width: 40%;
+    margin: 1.5rem auto;
+}
+
+.ekyc-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.loan-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 8px 12px; /* Smaller padding for a more compact button */
+    border: none; /* Remove border */
+    border-radius: 6px; /* Slightly smaller rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Smaller font size for the button text */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    width: auto; /* Set to auto to reduce the length */
+    text-align: center; /* Center the text */
+}
+
+.loan-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: scale(1.03); /* Slight scaling on hover */
+}
+
+.loan-button:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow when clicked */
+    transform: scale(0.97); /* Slight shrink when clicked */
+}
+
+
+.emi-due-results h6 {
+    margin-top: 20px;
+    color: #000;
+}

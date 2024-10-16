@@ -1,0 +1,120 @@
+.PreClosure{
+    display:flex; 
+}
+
+.PreClosure-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.PreClosureform{
+    margin: 2rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: 95%;
+    background-color: white;
+    border-radius: 0.5rem;
+    
+}
+.cash-form-1{
+    display: grid !important ;
+    grid-template-columns: 1fr 1fr !important;
+}
+
+.PreClosureform button{
+    width: fit-content;
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #2236C9;
+    color: white;
+}
+
+.closure-detail{
+    display:grid;
+    grid-template-columns:1.5fr 0.5fr;
+    margin: 2rem;
+    gap:5rem;
+    width:95%;
+}
+
+.closure-detail .closure-detail-1{
+    
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+.closure-detail-1 .cp-cd-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    background-color: #f0f7ff;
+    margin-bottom: 1rem;
+}
+
+.cp-cd-1 .cd-1{
+    align-self: flex-end;
+    color: grey;
+}
+.cp-cd-1 .cd-2{
+    color: grey;
+}
+.cp-cd-1 .cd-2 h4{
+    color: black;
+}
+
+.closure-detail-1 .cp-cd-2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 1rem;
+    border-top: 0.09rem solid lightgray;
+    border-bottom: 0.09rem solid lightgray;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.cp-cd-2 .cd-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:grey;
+    font-size: 0.9rem;
+    border-bottom: 0.1rem solid #69bb93;
+}
+.cp-cd-2 .cd-3 button{
+    border: none;
+    border-radius: 0.2rem;
+    color:white;
+    background-color: #2236C9;
+    padding: 0.2rem;
+}
+
+.cp-cd-2 .cd-3 select{
+    margin-bottom: 0.5rem;
+}
+
+.closure-detail-1 .cp-cd-3{
+    font-size: 0.7rem;
+    color: grey;
+    padding: 1rem;
+}
+
+.closure-detail .closure-detail-2{
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+    gap:1rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.2rem;
+}
+
+.closure-detail .closure-detail-2 button{
+    border: 0.09rem solid grey;
+    padding: 0.2rem;
+    color:grey;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    font-size: 0.9rem;
+    cursor: pointer;
+}

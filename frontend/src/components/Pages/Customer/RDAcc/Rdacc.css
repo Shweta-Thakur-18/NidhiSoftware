@@ -1,0 +1,28 @@
+.rd-container{
+    position: absolute;
+    top:6rem;
+    left:20rem;
+
+}
+.search-box{
+    width:73rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding:0.8rem;
+}
+.search-box button{
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    width:fit-content;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.member-con{
+    width:73rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding:0.8rem;
+    
+}

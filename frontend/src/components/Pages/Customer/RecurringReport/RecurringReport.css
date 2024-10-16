@@ -1,0 +1,65 @@
+/* RecurringReport.css */
+.recurring-report-container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.rd-report-container {
+    flex: 1; /* Take remaining space */
+    padding: 20px; /* Padding for content area */
+    background-color: #f9f9f9; /* Background color for report container */
+    border-radius: 8px; /* Rounded corners */
+    margin: 15px; /* Margin for spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-top: 2.54cm;
+}
+
+.rd-report-container h3 {
+    text-align: center; /* Center align the heading */
+    color: #333; /* Heading color */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+.report-section {
+    background-color: #ffffff; /* Background for report sections */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for report sections */
+    margin-bottom: 15px; /* Space between sections */
+}
+
+.report-section h5 {
+    color: #007bff; /* Heading color for report sections */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+.report-section p {
+    margin: 5px 0; /* Vertical spacing for paragraphs */
+    color: #555; /* Text color */
+}
+
+.report-section ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.report-section ul li {
+    background-color: #f1f1f1; /* Background color for list items */
+    padding: 5px; /* Padding for list items */
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px 0; /* Vertical spacing between items */
+}
+
+.report-section ul li:hover {
+    background-color: #e2e2e2; /* Hover effect for list items */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .recurring-report-container {
+        flex-direction: column; /* Stack side panel and content */
+    }
+
+    .rd-report-container {
+        padding: 10px; /* Adjust padding for small screens */
+    }
+}

@@ -1,0 +1,85 @@
+/* Common Box Styles for Overdue Interest Section */
+.overdue-container {
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(40% - 1cm);
+    margin: 0.5cm;
+    box-sizing: border-box;
+}
+
+h5 {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Input field and button styles */
+.input-field {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.overdue-button {
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.overdue-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for displaying overdue results */
+.overdue-results {
+    background-color: #e7f3fe;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.overdue-results h6 {
+    margin: 0;
+    color: #31708f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .overdue-container {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+        padding: 5px;
+    }
+}

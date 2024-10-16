@@ -1,0 +1,32 @@
+.savingAcc{
+    display:flex; 
+}
+
+.savingAcc-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.savingAccform{
+    margin: 2rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    width: 95%;
+    background-color: white;
+    border-radius: 0.5rem;
+    
+}
+.cash-form-1{
+    display: grid !important ;
+    grid-template-columns: 1fr 1fr !important;
+}
+
+.savingAccform button{
+    width: fit-content;
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #2236C9;
+    color: white;
+}

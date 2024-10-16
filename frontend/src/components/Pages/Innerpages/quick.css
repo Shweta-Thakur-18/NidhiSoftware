@@ -1,0 +1,35 @@
+.quick{
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255,255,255,1) 100%);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    border-radius: 4px;
+    width:73rem;
+    padding: 10px;
+}
+.sub-quick-box{
+    background-color: white;
+    width: 9rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding-bottom: 6px;
+    margin: auto;
+    padding-left: 4px;
+
+}
+.quick-box{
+    
+    display:flex;
+    justify-content: space-evenly; 
+}
+.p2-sav{
+    font-size: 11px;
+}
+.touch-fetch{
+    cursor: pointer;
+    background: #2236C9;
+    color: white;
+    border-radius: 5px;
+    width:5rem;
+    height: 2rem;
+    font-size: 12px;
+    
+}

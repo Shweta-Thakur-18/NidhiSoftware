@@ -1,0 +1,73 @@
+.customer-searchbar{
+    position:absolute;
+    top:7rem;
+    left:20rem;
+    background: white;
+    box-shadow: black;
+    border-radius: 4px;
+    width:fit-content;
+    padding: 10px;
+}
+.cust-input{
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    text-indent: 6px;
+    height: 2.3rem;
+}
+.customer-bar2{
+    position: absolute;
+    top: 7rem;
+    left: 47rem;
+    background: white;
+    box-shadow: black;
+    border-radius: 4px;
+    width:fit-content;
+    padding: 17px;
+}
+.table{
+    position: absolute;
+    top:20rem;
+    left:20rem;
+    width:800px;
+}
+.customer-bar3{
+    position:absolute;
+    top:20rem;
+    left:71rem;
+    width: 350px;
+    background: white;
+    
+}
+.trend{
+    width:40px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+.purple{
+    color: rgb(147, 18, 167);
+    background-color: rgb(209, 165, 255);
+}
+.green{
+    color: green;
+    background-color: rgb(191, 255, 165);
+}
+.red{
+    color: red;
+    background-color: rgb(255, 143, 143);
+}
+.yellow{
+    color: yellow;
+    background-color: rgb(154, 154, 132);
+}
+.blue{
+    color: blue;
+    background-color: rgb(172, 234, 255);
+}
+.bx-rupee{
+    color: rgb(147, 233, 19);
+    margin: 0.5rem;
+}

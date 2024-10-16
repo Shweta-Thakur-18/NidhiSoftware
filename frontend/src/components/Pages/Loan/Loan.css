@@ -1,0 +1,65 @@
+
+/* Loan.css */
+
+/* Container for the loan form */
+/* Loan.css */
+
+/* Common Box Styles for all sections */
+.details-box {
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Reduced padding for internal spacing */
+    width: calc(40% - 1cm); /* Each box takes up 40% width minus margins */
+    margin: 0.5cm; /* Consistent margin around boxes */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+/* Styles for member details, nominee details, and submit section */
+.member-con, .nominee-details-container, .search-box {
+    margin-bottom: 1.5rem; /* Space between sections */
+}
+
+h5 {
+    margin-bottom: 15px; /* Space between heading and content */
+}
+
+/* Input field styles */
+.nominee-field, .member-field {
+    margin-bottom: 1rem; /* Spacing between fields */
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px; /* Adjusted padding for smaller input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .details-box {
+        width: 100%; /* Full width on smaller screens */
+        margin: 1rem 0; /* Space between boxes */
+    }
+
+    .row {
+        flex-direction: column; /* Stack fields on smaller screens */
+    }
+
+    .col {
+        width: 100%;
+        padding: 5px;
+    }
+}

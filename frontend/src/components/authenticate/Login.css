@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width:100%;
+    
+    
+}
+.img1{
+    width: 15rem;
+   
+}
+.img2 img{
+    width: 25rem; 
+    margin:4rem 2rem 2rem 20rem;    
+}
+.login-box{
+    width:33rem;
+    padding: 2rem 4rem 0rem 4rem;
+    border: dotted;
+    border-radius: 20px;
+    background: transparent;
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255,255,255,1) 100%);
+    box-shadow: #6d65fc 0px 5px 15px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    
+}
+.branch-login{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    color: #7C7C88;
+    background: rgba(255,255,255,1);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    padding: 0.5rem 5rem 0.5rem 6rem;
+    border-radius: 5px;
+    
+}
+.p1{
+    color: #7C7C88;
+}
+.input1{
+    border-top: #2236C9 solid 10px;
+    border-left: #2236C9 solid 8px;
+    border-radius: 5px;
+    background-color: white;
+    text-indent: 6px;
+    height: 2.6rem;
+}
+.checkbox{
+    width:20px;
+}
+.login-buttons button{
+    width:8rem;
+    margin: auto;
+    border-radius: 5px;
+    border-bottom:#2236C9 solid 3px ;
+    border-right: #2236C9 solid 3px;
+
+}
+.login-button button{
+    border-radius: 5px;
+    background-color: #2236C9;
+    color:white;
+    padding: 3px;
+}

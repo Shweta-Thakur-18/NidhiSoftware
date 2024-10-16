@@ -1,0 +1,80 @@
+.customerdetail{
+    display: flex;
+    
+}
+.customerdetail-body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.topbox{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    height:5rem;
+    padding: 0.5rem;
+    background-color:  #ECE8F9;
+}
+.topbox .top-comp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.4rem;
+    width: 15rem;
+}
+.top-comp .top-icon{
+    width: 2rem;
+    border-radius: 0.2rem;
+    
+    color: grey;
+
+}
+
+.top-comp .top-body{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
+    width: 8rem;
+}
+
+.customerdetail-form {
+    padding: 1rem;
+}
+.customerdetail-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0.5rem;
+}
+
+.customer-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 80%;
+    font-size: 0.8rem;
+    
+}
+.customerdetail-form form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: transparent;
+    color:black;
+    border: 0.01rem solid black;
+    border-radius: 0.3rem;
+}
+
+.customerdetail-form form button[type ="submit"]{
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: #2236C9 ;
+    color:white;
+    border-radius: 0.3rem;
+    border: none;
+}

@@ -1,0 +1,63 @@
+/* src/components/RejectedLoans.css */
+
+.rejected-loans-container {
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(40% - 1cm);
+    margin: 0 auto; /* Remove vertical margin to push it up */
+    margin-top: -39rem; /* Add a smaller margin at the top */
+    box-sizing: border-box;
+}
+
+h5 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2236C9;
+}
+
+/* Loan List Styles */
+.loan-list {
+    margin-top: 20px;
+}
+
+.loan-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.loan-list li {
+    background: linear-gradient(0deg, #e7f3fe 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+.loan-list li:hover {
+    transform: translateY(-2px);
+}
+
+.loan-details {
+    margin-bottom: 8px;
+}
+
+.loan-details strong {
+    color: #007bff;
+}
+
+.loan-details span {
+    color: #555;
+    font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .rejected-loans-container {
+        width: 100%;
+        margin: 1rem 0; /* Center for mobile view */
+    }
+}

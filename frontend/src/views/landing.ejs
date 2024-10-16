@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <%- include("header.ejs")  %>
+
+        <nav class="navbar">
+            <div class="navbar-header">
+                <img src="./Images/bg4.jpg" alt="Logo">
+                <a class="navbar-brand" href="#">Brand Name</a>
+            </div>
+            <div class="navbar-right">
+                <a href="">Quick Access</a>
+                <p>20000</p>
+                <p><%= user  %></p>
+                <a href=""><img src="./Images/user.png" alt="profile"></a>
+            </div>
+        </nav>
+
+        <div class="searchMem">
+            <h2>Search Member</h2>
+            <form action="" class="">
+                <input type="text" name="" id="">
+                <input type="submit" value="Fetch Details">
+            </form>
+        </div>
+
+        <div class="businessSummary">
+            <section>
+                <img src="./Images/user.png" alt="">
+                <span>126</span>
+                <small>Fd/Ac</small>
+            </section>
+            <section>
+                <img src="./Images/user.png" alt="">
+                <span>126</span>
+                <small>Fd/Ac</small>
+            </section>
+            <section>
+                <img src="./Images/user.png" alt="">
+                <span>126</span>
+                <small>Fd/Ac</small>
+            </section>
+            <section>
+                <img src="./Images/user.png" alt="">
+                <span>126</span>
+                <small>Fd/Ac</small>
+            </section>
+            <section>
+                <img src="./Images/user.png" alt="">
+                <span>126</span>
+                <small>Fd/Ac</small>
+            </section>
+        </div>
+
+        <div class="quickAccess">
+            <section class="module">
+                <h2>Saving Account</h2>
+                <p>Manage Saving Account</p>
+                <button>SB Report</button>
+            </section>
+            <section class="module">
+                <h2>Saving Account</h2>
+                <p>Manage Saving Account</p>
+                <button>SB Report</button>
+            </section>
+            <section class="module">
+                <h2>Saving Account</h2>
+                <p>Manage Saving Account</p>
+                <button>SB Report</button>
+            </section>
+            <section class="module">
+                <h2>Saving Account</h2>
+                <p>Manage Saving Account</p>
+                <button>SB Report</button>
+            </section>
+            <section class="module">
+                <h2>Saving Account</h2>
+                <p>Manage Saving Account</p>
+                <button>SB Report</button>
+            </section>
+            <section class="module">
+                <h2>Saving Account</h2>
+                <p>Manage Saving Account</p>
+                <button>SB Report</button>
+            </section>
+        </div>
+    </div>
+    
+
+
+    <script>
+        const menuItems = document.querySelectorAll('.menu a');
+
+        menuItems.forEach(item => {
+            item.addEventListener('click', event => {
+                event.preventDefault();
+
+                // Remove the 'active' class from the previously active menu item.
+                document.querySelector('.menu a.active').classList.remove('active');
+
+                // Add the 'active' class to the clicked menu item.
+                event.target.classList.add('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

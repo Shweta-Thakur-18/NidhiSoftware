@@ -1,0 +1,45 @@
+.fd{
+    position:absolute;
+    top:7rem;
+    left:20rem;
+    background-color: #ffff;
+    border-radius: 5px;
+    width:73rem;
+    padding: 12px;
+}
+.fd label{
+    font-size: 14px;
+    color: gray;
+}
+.fd button{
+    width:10rem;
+    background-color: blue;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height:2.5rem;
+}
+.statement-cont{
+    position: absolute;
+    top: 15rem;
+    left:20rem;
+    width:70rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.statement-cont button{
+    width:10rem;
+    background-color: blue;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height:2.5rem;
+    padding: 0.5rem;
+}
+.statement-cont label{
+    font-size: 13px;
+    color: gray;
+}

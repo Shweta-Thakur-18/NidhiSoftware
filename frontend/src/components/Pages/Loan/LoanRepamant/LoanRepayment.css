@@ -1,0 +1,61 @@
+.loan-repayment-container {
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255, 255, 255, 1) 100%); /* Gradient background */
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px; /* Box shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Increased padding for better spacing */
+    width: calc(40% - 1cm); /* Width adjustment */
+    margin: 0 auto; /* Center the container */
+    margin-top: -46rem; /* Move the container upward */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+h5 {
+    margin-bottom: 15px; /* Space below the heading */
+    font-size: 1.75rem; /* Increased font size for better visibility */
+    font-weight: bold; /* Bold font for emphasis */
+    color: #2236C9; /* Consistent color */
+}
+
+/* Repayment List Styles */
+.repayment-list {
+    margin-top: 20px; /* Space above the list */
+}
+
+.repayment-list ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.repayment-list li {
+    background: linear-gradient(0deg, #e7f3fe 0%, rgba(255, 255, 255, 1) 100%); /* Gradient background */
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px; /* Consistent shadow */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the list item */
+    margin: 10px 0; /* Space between list items */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.repayment-list li:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.repayment-details {
+    margin-bottom: 8px; /* Space below each detail */
+}
+
+.repayment-details strong {
+    color: #007bff; /* Highlight for strong text */
+}
+
+.repayment-details span {
+    color: #555; /* Color for normal text */
+    font-weight: 400; /* Normal weight */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .loan-repayment-container {
+        width: 100%; /* Full width for mobile */
+        margin: 1rem 0; /* Center for mobile view */
+    }
+}

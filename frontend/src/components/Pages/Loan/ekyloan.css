@@ -1,0 +1,107 @@
+/* Loan container styling */
+/* Loan container styling */
+.loan-container {
+    background: linear-gradient(0deg, #C8C5F1 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: #2236C9 0px 10px 15px -3px, #2236C9 0px 4px 6px -2px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto; /* Center horizontally */
+    width: 60%;
+    position: relative;
+    top: -600px; /* Pulls the box up */
+}
+
+/* Section titles */
+h5 {
+    color: #2236C9;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Loan form input fields */
+.ekyc-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-top: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.ekyc-input:focus {
+    border-color: #2236C9;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(34, 54, 201, 0.4);
+}
+/* File input styling */
+.loan-upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between input and upload button */
+    margin-top: 15px;
+}
+
+.loan-upload input[type="file"] {
+    width: 50%; /* Reduced width for smaller file input */
+    padding: 6px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    background-color: white;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.loan-upload input[type="file"]:focus {
+    border-color: #2236C9;
+    outline: none;
+    box-shadow: 0px 0px 3px rgba(34, 54, 201, 0.4);
+}
+
+/* Upload button next to file input */
+.upload-button {
+    background-color: #2236C9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px; /* Smaller button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.upload-button:hover {
+    background-color: #4158D0;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .loan-upload input[type="file"] {
+        width: 70%; /* Slightly larger on smaller screens */
+    }
+    
+    .upload-button {
+        width: auto;
+        padding: 6px 12px;
+        margin-top: 10px;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .loan-container {
+        width: 100%;
+        padding: 15px;
+        top: -30px; /* Pull up less on smaller screens */
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-6, .col-1 {
+        width: 100%;
+    }
+}

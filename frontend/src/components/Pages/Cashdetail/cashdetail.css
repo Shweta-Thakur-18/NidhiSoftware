@@ -1,0 +1,104 @@
+.sec-shift{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:1rem;
+
+}
+.cash-heads{
+    display: flex;
+    gap: 3rem;
+    box-sizing: border-box;
+    width: fit-content;
+}
+.cash-heads .cash-title{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 1.5rem 0.1rem lightgrey;
+    font-weight: 600;
+    cursor: pointer; 
+}
+
+.cash-title .cash-i{
+    width: 1rem;
+    color: #AAA6F6;
+}
+
+.cash-heads .cash-active{
+    background-color: #2236C9 !important;
+    color:white !important;
+}
+
+.cash-active .cash-i{
+    color:#D5D2FA !important;
+} 
+
+.cash-body{
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 71.5rem;
+    padding: 1rem;
+}
+
+.cash-body-head{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cash-form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0.7rem;
+}
+
+.cash-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 70%;
+    
+}
+
+.cash-input label{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.cash-input .radio-inputs{
+    display: flex;
+    font-size: 0.8rem !important;
+}
+.cash-input .radio-inputs .radio-input{
+    display: flex;
+}
+
+.cash-input input,.cash-input select{
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: 0.01rem solid grey;
+}
+.cash-input input:focus,.cash-input select:focus{
+    outline: none;
+}
+
+.span-col-2{
+    grid-column: span 2;
+    width: 50% !important;
+}
+
+.cash-form button{
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: #2236C9 ;
+    color:white;
+    border-radius: 0.3rem;
+    border: none;
+}

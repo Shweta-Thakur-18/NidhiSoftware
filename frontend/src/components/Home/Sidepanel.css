@@ -1,0 +1,68 @@
+
+.sidepanel{
+    background-color: white;
+    width:18rem;
+    
+    height: 100vh;
+}
+
+.sidepanel .links{
+    color: black;
+    text-decoration: none;
+}
+
+.ps-menu-label{
+    width:60rem;
+}
+.topbar{
+    position: absolute;
+    top:2rem;
+    left:20rem;
+}
+.topbar-box{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height:3rem;
+    width:73.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.small-div{
+    width:fit-content;
+    margin: 5px;
+}
+.small-div p{
+    font-size: 11px;
+}
+.star{
+    color: goldenrod;
+    margin: 8px;
+}
+.sec-div{
+    width:max-content;
+    font-size: 10px;
+    
+    height:1.5rem;
+    padding-right: 6px;
+    padding-top: 3px;
+}
+.img-circle{
+    background-color: blue;
+    border-radius: 50%;
+    width:2.5rem;
+    height: auto;
+    object-fit: cover;
+    
+}
+.shift-dashboard{
+    position: absolute;
+    top:7rem;
+    left:20rem;
+}
+.sec-shift{
+    position: absolute;
+    top:22rem;
+    left:20rem;
+}
